@@ -1,0 +1,130 @@
+.chooseIngredients {
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 15px 50px 15px 50px;
+  margin: 10px 500px 5px 500px;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+}
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 30px 200px 20px 200px;
+  font-family: "Cabin", sans-serif;
+  font-size: 30px;
+  border-radius: 15px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+h1,
+h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+}
+.buttons4 {
+  /*margin-top: 15px;*/
+  text-align: center;
+  background-color: purple;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  border-radius: 55px;
+  padding: 25px 45px 25px 25px;
+  border: 5px solid yellowgreen;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 7px;
+}
+/*Not working?*/
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#blendItAll {
+  background-image: url("https://1.bp.blogspot.com/-IIXsBWKT79w/WVLFpFMoDrI/AAAAAAAAAyM/W1szV8Kxy58pkLmFWVElvEpJW_L0TVVbQCK4BGAYYCw/s1600/lime_insta.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: fixed;
+  text-align: center;
+  /*border-radius: 1000px;*/
+}
+#gify1 {
+  height: 600px;
+  width: 700px;
+  background-attachment: relative;
+  background-position: center;
+  border-radius: 100%;
+  visibility: hidden;
+}
+#emptyGlass {
+  height: 600px;
+  width: 700px;
+  background-attachment: relative;
+  background-position: center;
+}
+#gify2 {
+  height: 200px;
+  width: 300px;
+}
+#magic {
+  text-align: center;
+  height: 600px;
+  width: 700px;
+  background-attachment: relative;
+  background-position: center;
+  border-radius: 100%;
+  background-image: url("https://thumbs.dreamstime.com/b/lets-make-magic-colored-vector-illustration-hand-drawn-calligraphy-lets-make-magic-colored-vector-illustration-hand-192851747.jpg");
+  margin-left: 27%;
+}
+#fillButton {
+  margin-left: 43%;
+  background-color: purple;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  border-radius: 55px;
+  padding: 25px 25px 25px 25px;
+  border: 5px solid yellowgreen;
+}
+/*Taking this blink CSS from here: https://www.freecodecamp.org/news/make-it-blink-html-tutorial-how-to-use-the-blink-tag-with-code-examples/*/
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
