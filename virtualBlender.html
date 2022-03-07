@@ -1,0 +1,121 @@
+<html>
+<head>
+  <link rel = "stylesheet" href="findAFriend.css">
+  <script src="findAFriend.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Fruktur&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Make your own smoothie</h1>
+<h3>by E-Nutribullet</h3>
+<img src="https://nbmedia.imgix.net/media/Pro900_full_color_299_R1_black_gray_back_2_R3_1500x1201.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&h=900">
+<h2>Choose ingredients of your smoothie</h2>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing1">
+    Banana
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Mix Berries
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Apple
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Kale
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    Baby Spinach
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    Celery
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    Mango
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    Pineapple
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    100% Whole milk
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox">
+  <label for="ing2">
+    Oat milk (vegan)
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Dates Syrup
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Cinnamon powder
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Mixed Seeds
+  </label>
+</div>
+<div class="chooseIngredients">
+  <input type="checkbox" checked>
+  <label for="ing2">
+    Mixed Nuts
+  </label>
+</div>
+<br>
+<h2>Now, let's churn them in the e-blender below : </h2>
+<p>Since this is a virtual blender you need to 'push' buttons to churn your ingredients </p>
+<div id="blendItAll">
+  <button class="buttons4" type="button">1. Collect ingredients</button>
+  <br>
+  <button class="buttons4" type="button">2. Put them in the blender jar</button>
+  <br>
+  <button class="buttons4" type="button">3. Tightly fasten the jar's lid</button>
+  <br>
+  <button class="buttons4" onclick="runGify1()" type="button"><span class="blink">4. Push 'Start'</span></button>
+</div>
+<h2>See the magic happen below</h2>
+<br>
+<div id="magic"></div>
+<!--<img id="gify1" src="https://media2.giphy.com/media/5tvQPr9jj2ZfxE2EF3/giphy.gif"-->
+<h2>Now, let us empty the smoothie in an empty glass</h2>
+<button type="button" onclick="changeGlass()" id="fillButton" class="blink">Fill my glass</button>
+<img id="emptyGlass" src="https://www.maddisonsuk.com/WebRoot/BT3/Shops/BT4896/4AD4/72CA/5934/D604/2171/0A0A/33E7/7FDF/12oz_clear_tumbler_-_smoothie_cup_-_milkshake_cup_-_takeaway_-_wholesales.jpg" ;>
+<h2>Voila! Enjoy your virtual smoothie....</h2>
+<br>
+<img id="gify2" src="https://media.baamboozle.com/uploads/images/162312/1619868685_25148_gif-url.gif">
+</body>
+</html>
